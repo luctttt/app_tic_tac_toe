@@ -25,7 +25,7 @@ public class BXHActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        // hello world
+       
 
         super.onCreate(savedInstanceState);
 
