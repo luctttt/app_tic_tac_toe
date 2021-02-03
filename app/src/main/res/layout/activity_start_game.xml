@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anhnen3"
+    tools:context=".BXH.StartGame">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_nameOne_startGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nguoi_choi_1"
+            android:textColor="#FBFBFB"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/txt_point_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nameOne_startGame"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="36dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp">
+
+        <TextView
+            android:id="@+id/txt_nameTwo_startGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nguoi_choi_2"
+            android:textColor="#FFFFFF"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/txt_point_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_nameTwo_startGame"
+            android:layout_centerHorizontal="true"
+            android:text="0"
+            android:textColor="#fff"
+            android:textSize="36dp" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/rlt"
+        android:layout_marginTop="4dp"
+        android:background="#6C6565" />
+
+    <RelativeLayout
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/btn_2"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerInParent="true"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/btn_2"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/btn_5"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerInParent="true"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/btn_5"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/btn_8"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_centerInParent="true"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/btn_8"
+            android:background="@color/design_default_color_primary"
+            android:textSize="60dp"
+            android:theme="@style/buttonStartGame" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/tro_ve" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:text="@string/luu" />
+    </LinearLayout>
+
+</RelativeLayout>
+

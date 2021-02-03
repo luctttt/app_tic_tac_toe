@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tic_tac_toe_2</string>
+    <string name="tro_ve">back</string>
+    <string name="luu">save</string>
+    <string name="nguoi_choi_1">playone</string>
+    <string name="nguoi_choi_2">playtwo</string>
+    <string name="tiep_theo">next</string>
+</resources>

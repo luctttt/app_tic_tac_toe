@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tic_tac_toe_2</string>
+    <string name="tro_ve">trở về</string>
+    <string name="luu">lưu</string>
+    <string name="nguoi_choi_1">người chơi 1</string>
+    <string name="nguoi_choi_2">người chơi 2</string>
+    <string name="tiep_theo">tiếp theo</string>
+</resources>
