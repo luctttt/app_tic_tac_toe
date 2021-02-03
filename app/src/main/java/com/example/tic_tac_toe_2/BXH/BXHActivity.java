@@ -24,13 +24,9 @@ public class BXHActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-       
-
         super.onCreate(savedInstanceState);
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_b_x_h);
-
 
         adapter = new BXH_Adapter(dsModel_BXH);     // adapter
         getData();      // creat dữ liệu tử sqlite
