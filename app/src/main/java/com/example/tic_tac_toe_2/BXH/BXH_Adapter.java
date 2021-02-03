@@ -16,8 +16,6 @@ import java.util.List;
 
 class BXH_Adapter extends RecyclerView.Adapter<BXH_Adapter.ViewHolder> {
 
-    // hello , tôi là trần đức lực !!!
-
     List<Model_BXH> dsModel = new ArrayList<>();
 
     public BXH_Adapter(List<Model_BXH> dsModel) {
